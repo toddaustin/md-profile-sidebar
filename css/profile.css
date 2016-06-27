@@ -62,6 +62,11 @@ footer {
 a {
     display: inline-block;
     color: #01579B;
-    margin: 0 15px;
+    margin: 0 10px;
     text-shadow: 2px 2px #fff;
+    transition: transform .8s ease-in-out;
+}
+
+a:hover {
+    transform: rotate(360deg);
 }
