@@ -6,6 +6,69 @@ body{
     color: #01579B;
 }
 
+ul {
+   /* background-color: #0277BD;*/
+    background-color: rgba(2, 119, 189,0.5);
+    border-bottom: 1px solid rgba(49,144,201,.25);
+    border-top: 1px solid rgb(1,87,155);
+    cursor: pointer;
+    display: inline-block;
+    font: inherit;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    text-decoration: none;
+    width: 100%;
+    white-space: nowrap;
+}
+
+ul li {
+    /*border-right: 1px solid #01579B;*/
+    display: inline-block;
+    margin: 0;
+    position: relative;
+}
+
+.nav a {
+    color: #fff;
+    display: block;
+    padding: 15px 30px;
+    position: relative;
+    text-decoration: none;
+}
+
+.nav a:hover {
+    /*background-color: #ffc000;*/
+    /*color: #01579B;*/
+    background-color: rgba(1,87,155,.7);
+    box-shadow: inset 0px 2px 8px rgba(0, 0, 0, 0.5);
+    color: rgb(255, 255, 255);
+}
+
+.nav a:active {
+    color: #fff;
+    position: relative;
+}
+.nav .active {
+    background-color: #fff;
+    color: #01579B
+}
+
+header {
+    border-bottom: 1px solid #fff;
+    color: #ffc000;
+    margin: 0;
+    padding: 0 0 20px;
+    background: #fff url('http://toddaustin.com/moosic/images/studio.jpg') no-repeat 15% top fixed;
+}
+
+h1 {
+    margin: 10px 0 10px 20px;
+    padding: 0;
+    font-size: 3em
+}
+
+
 .profile {
     width: 30%;
     min-width:200px;
@@ -17,14 +80,15 @@ body{
     border: 1px solid #fff;
 }
 
-header {
+.profile header {
     border-bottom: 1px solid #dbdbdb;
     text-align: center;
     color: #01579B;
     text-shadow: 1px 1px #fff;
+    background: none;
 }
 
-header img {
+.profile header img {
     height: 8em;
     width: 8em;
     border-radius: 80px;
@@ -34,7 +98,7 @@ header img {
 
 }
 
-h1 {
+.profile h1 {
     font-size: 2.5em;
     margin: 0;
 }
@@ -59,7 +123,7 @@ footer {
     text-align: center;
 }
 
-a {
+.profile a {
     display: inline-block;
     color: #01579B;
     margin: 0 10px;
