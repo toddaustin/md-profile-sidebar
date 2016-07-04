@@ -39,6 +39,7 @@ nav ul {
     position: relative;
     text-decoration: none;
     width: 100%;
+    white-space: nowrap;
 }
 
 nav ul li {
