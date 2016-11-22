@@ -5,9 +5,16 @@ body {
     font: 16px arial, helvetica, sans serif;
     margin: 0em;
     padding: 0;
+    height: 100%;
 }
 
-
+body {
+    background: linear-gradient(90deg, #21232b 1%, #000000 100%) no-repeat fixed;
+    background-image:-moz-radial-gradient(center center, ellipse cover, #21232b, #000000);
+    background-image: -webkit-radial-gradient(center center, ellipse cover, #21232b, #000000 );
+    background-repeat:no-repeat;
+    background-position: fixed;
+}
 
 h1 {
     color: #ffc000;
