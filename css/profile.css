@@ -8,9 +8,9 @@ body {
 }
 
 body {
-    background: linear-gradient(90deg, #21232b 1%, #000000 100%) no-repeat fixed;
-    background-image:-moz-radial-gradient(center center, ellipse cover, #21232b, #000000);
-    background-image: -webkit-radial-gradient(center center, ellipse cover, #21232b, #000000 );
+    background: linear-gradient(90deg, ##242735 1%, #000000 100%) no-repeat fixed;
+    background-image:-moz-radial-gradient(center center, ellipse cover, #242735, #000000);
+    background-image: -webkit-radial-gradient(center center, ellipse cover, #242735, #000000 );
     background-repeat:no-repeat;
     background-position: fixed;
 }
